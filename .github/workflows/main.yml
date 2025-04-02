@@ -3,6 +3,8 @@ on: push
 jobs:
   sonatype-cli:
     runs-on: ubuntu-latest
+    permissions:
+      security-events: write
     steps:
       # some steps are omitted...
       # Check out your code
