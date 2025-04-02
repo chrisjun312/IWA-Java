@@ -25,4 +25,4 @@ jobs:
           application-id: SBOM_githubaction
     # Space-separated list of paths to specific files, directories, or docker images. Apache Ant-styled patterns are allowed.
           scan-targets: "**/*"
-          
+          upload-sarif-file: true
