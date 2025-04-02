@@ -20,6 +20,7 @@ jobs:
           username: bjlee0312
     # The password to authenticate with Lifecycle (IQ Server).
           password: new!nectI0n
+          organization-id: inectionsoft
     # Lifecycle (IQ Server) application ID. When Automatic Applications is enabled and the application ID has not yet been used, a new application will be created with the given ID.
           application-id: SBOM_githubaction
     # Space-separated list of paths to specific files, directories, or docker images. Apache Ant-styled patterns are allowed.
